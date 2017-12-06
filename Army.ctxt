@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Army
+comment0.text=\n\ Write\ a\ description\ of\ class\ Army\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Army()
+comment2.params=ArmyType
+comment2.target=java.util.ArrayList\ ArmyCreator(int)
+comment3.params=
+comment3.target=java.util.ArrayList\ getArmy1()
+comment4.params=
+comment4.target=java.util.ArrayList\ getArmy2()
+numComments=5
