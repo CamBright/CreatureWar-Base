@@ -1,16 +1,20 @@
 import java.util.ArrayList;
 import java.util.Random;
 /**
- * Write a description of class Army here.
+ * This class creates 2 Armies filled with different types of random creatures.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Cameron Brightwell
+ * @version 2017
  */
 public class Army
 {
-    // instance variables - replace the example below with your own
+    // instance variables 
     private ArrayList<Creature> Army1;
     private ArrayList<Creature> Army2; 
+    
+    /**
+     * Constructor of Army class
+     */
     public Army() {
         this.Army1 = new ArrayList<>();
         this.Army2 = new ArrayList<>();
@@ -18,6 +22,12 @@ public class Army
         this.Army2 = ArmyCreator(2);
     }
     
+    /**
+     * Takes in the army type and fills the array list depending on it, then 
+     * returns the array list filled with creatures.
+     * @param int ArmyType
+     * @return ArralList Army.
+     */
     public ArrayList ArmyCreator(int ArmyType) {
         Random oRand = new Random();
         ArrayList<Creature> Army = new ArrayList<>();
@@ -46,10 +56,18 @@ public class Army
         return Army;
     }
         
+    /**
+     * Return the Army full of good creatures.
+     * @return ArrayList Army1.
+     */
     public ArrayList getArmy1() {
             return Army1;
     }
     
+    /**
+     * Return the army full of evil creatures.
+     * @return ArrayList Army2.
+     */
     public ArrayList getArmy2() {
             return Army2;
     }

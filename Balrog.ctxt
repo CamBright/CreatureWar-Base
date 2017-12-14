@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.target=Balrog
-comment0.text=\n\ Write\ a\ description\ of\ class\ Balrog\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ The\ attributes\ such\ as\ the\ health,\ name,\ and\ damage\ of\ a\ balrog.\n\n\ @author\ Cameron\ Brightwell\n\ @version\ 2017\n
 comment1.params=
 comment1.target=Balrog()
+comment1.text=\n\ Constructor\ of\ Creature\ subclass\ Balrog\n
 comment2.params=
 comment2.target=int\ damage()
+comment2.text=\n\ Generate\ the\ damage\ a\ balrog\ inflicts\ and\ return\ it.\n\ @return\ int\ damage\n
 numComments=3

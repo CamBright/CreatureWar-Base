@@ -1,10 +1,13 @@
 #BlueJ class context
 comment0.target=Battle
-comment0.text=\n\ Write\ a\ description\ of\ class\ Battle\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Take\ two\ creatures\ from\ each\ army\ list\ and\ have\ them\ battle.\ Let\ the\ user\n\ know\ who\ won\ the\ battle,\ how\ much\ damage\ was\ dealt,\ and\ the\ health\ of\ the\ \n\ creatures\ before\ and\ after\ battle.\n\ If\ the\ creatures\ die,\ let\ the\ user\ know\ they\ died\ and\ take\ them\ out\ of\ the\n\ army\ list\n\ Once\ an\ army\ is\ defeated,\ let\ the\ user\ know\ the\ winning\ army\ and\ end\ the\ \n\ game.\n\n\ @author\ Cameron\ Brightwell\n\ @version\ 2017\n
 comment1.params=
 comment1.target=Battle()
+comment1.text=\n\ Constructor\ for\ Battle\ class.\n
 comment2.params=
 comment2.target=void\ War()
+comment2.text=\n\ Have\ two\ armies\ fight\ to\ the\ death,\ one\ creature\ at\ a\ time.\ Let\ the\ user\ \n\ know\ the\ outcome\ of\ each\ battle\ and\ the\ winner\ of\ the\ war.\n
 comment3.params=
 comment3.target=void\ printWelcome()
+comment3.text=\n\ Welcome\ the\ user\ and\ explain\ the\ Program.\n
 numComments=4

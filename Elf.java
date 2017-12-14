@@ -1,15 +1,17 @@
 import java.util.Random;
 /**
- * Write a description of class Elf here.
+ * The attributes such as the health, name, and damage of an elf.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Cameron Brightwell
+ * @version 2017
  */
 public class Elf extends Creature
 {
-    // instance variables - replace the example below with your own
     private Random random;
   
+  /**
+   * Constructor of Creature subclass Elf
+   */
   public Elf() {
       this.random = new Random();
       this.hp = random.nextInt(8)+17;
@@ -17,6 +19,10 @@ public class Elf extends Creature
       this.Name = "Elf";
   }
   
+  /**
+   * Generate the damage an elf inflicts and return it.
+   * @return int damage
+   */
   public int damage() {
       Random oRand = new Random();
       int damage = oRand.nextInt(strength);

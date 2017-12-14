@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.target=CyberDemon
-comment0.text=\n\ Write\ a\ description\ of\ class\ Cyberdemon\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ The\ attributes\ such\ as\ the\ health,\ name,\ and\ damage\ of\ a\ cyber\ demon.\n\n\ @author\ Cameron\ Brightwell\n\ @version\ 2017\n
 comment1.params=
 comment1.target=CyberDemon()
+comment1.text=\n\ Constructor\ of\ Creature\ subclass\ CyberDemon\n
 numComments=2

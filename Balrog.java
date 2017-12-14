@@ -1,15 +1,17 @@
 import java.util.Random;
 /**
- * Write a description of class Balrog here.
+ * The attributes such as the health, name, and damage of a balrog.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Cameron Brightwell
+ * @version 2017
  */
 public class Balrog extends Creature
 {
-    // instance variables - replace the example below with your own
   private Random random;
   
+  /**
+   * Constructor of Creature subclass Balrog
+   */
   public Balrog() {
       this.random = new Random();
       this.hp = random.nextInt(80)+120;
@@ -17,6 +19,10 @@ public class Balrog extends Creature
       this.Name = "Balrog";
   }
   
+  /**
+   * Generate the damage a balrog inflicts and return it.
+   * @return int damage
+   */
   public int damage() {
     Random oRand = new Random();
     int damage1 = oRand.nextInt(strength);

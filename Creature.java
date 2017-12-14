@@ -1,9 +1,9 @@
 import java.util.Random;
 /**
- * Write a description of class Creature here.
+ * Creature superclass with the basic building blocks of a crature object.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Cameron Brightwell
+ * @version 2017
  */
 public class Creature
 {
@@ -11,18 +11,30 @@ public class Creature
    protected int strength;
    protected String Name;
     
+   /**
+    * Creature class Constructor
+    */
     public Creature() {
         this.strength = 10;
         this.hp = 10;
         this.Name = "";
     }
+    
+    /**
+     * Generate a random amount of damage dealt by the creature.
+     * @return int damage
+     */
    public int damage() {
        Random oRand = new Random();
        int damage = oRand.nextInt(strength);
        return damage;
     }
     
-    public boolean isAlive() {
+    /**
+     * Check and see if the creature is alive.
+     * @return a boolean stating whether or not the creature is alive.
+     */
+   public boolean isAlive() {
         boolean Alive = true;
         if(hp <= 0) {
             Alive = false;
@@ -30,18 +42,30 @@ public class Creature
             Alive = true;
         }
         return Alive;
-    }
+   }
     
-    public void setHP(int newHP) {
+   /**
+    * set hp to newHP.
+    * @param int newHP.
+    */
+   public void setHP(int newHP) {
        hp = newHP;
-    }
+   }
     
-    public int getHealth() {
+   /**
+    * Return the amount of health the creature currently has.
+    * @return int hp
+    */
+   public int getHealth() {
         return hp;
-    }
+   }
     
-    public String getName() {
+   /**
+    * Return the Name of the creature.
+    * @return String Name.
+    */
+   public String getName() {
         return Name;
-    }
+   }
     
 }

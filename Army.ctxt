@@ -1,12 +1,16 @@
 #BlueJ class context
 comment0.target=Army
-comment0.text=\n\ Write\ a\ description\ of\ class\ Army\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ This\ class\ creates\ 2\ Armies\ filled\ with\ different\ types\ of\ random\ creatures.\n\n\ @author\ Cameron\ Brightwell\n\ @version\ 2017\n
 comment1.params=
 comment1.target=Army()
+comment1.text=\n\ Constructor\ of\ Army\ class\n
 comment2.params=ArmyType
 comment2.target=java.util.ArrayList\ ArmyCreator(int)
+comment2.text=\n\ Takes\ in\ the\ army\ type\ and\ fills\ the\ array\ list\ depending\ on\ it,\ then\ \n\ returns\ the\ array\ list\ filled\ with\ creatures.\n\ @param\ int\ ArmyType\n\ @return\ ArralList\ Army.\n
 comment3.params=
 comment3.target=java.util.ArrayList\ getArmy1()
+comment3.text=\n\ Return\ the\ Army\ full\ of\ good\ creatures.\n\ @return\ ArrayList\ Army1.\n
 comment4.params=
 comment4.target=java.util.ArrayList\ getArmy2()
+comment4.text=\n\ Return\ the\ army\ full\ of\ evil\ creatures.\n\ @return\ ArrayList\ Army2.\n
 numComments=5

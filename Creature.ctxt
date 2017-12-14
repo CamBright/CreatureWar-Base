@@ -1,16 +1,22 @@
 #BlueJ class context
 comment0.target=Creature
-comment0.text=\n\ Write\ a\ description\ of\ class\ Creature\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Creature\ superclass\ with\ the\ basic\ building\ blocks\ of\ a\ crature\ object.\n\ \n\ @author\ Cameron\ Brightwell\n\ @version\ 2017\n
 comment1.params=
 comment1.target=Creature()
+comment1.text=\n\ Creature\ class\ Constructor\n
 comment2.params=
 comment2.target=int\ damage()
+comment2.text=\n\ Generate\ a\ random\ amount\ of\ damage\ dealt\ by\ the\ creature.\n\ @return\ int\ damage\n
 comment3.params=
 comment3.target=boolean\ isAlive()
+comment3.text=\n\ Check\ and\ see\ if\ the\ creature\ is\ alive.\n\ @return\ a\ boolean\ stating\ whether\ or\ not\ the\ creature\ is\ alive.\n
 comment4.params=newHP
 comment4.target=void\ setHP(int)
+comment4.text=\n\ set\ hp\ to\ newHP.\n\ @param\ int\ newHP.\n
 comment5.params=
 comment5.target=int\ getHealth()
+comment5.text=\n\ Return\ the\ amount\ of\ health\ the\ creature\ currently\ has.\n\ @return\ int\ hp\n
 comment6.params=
 comment6.target=java.lang.String\ getName()
+comment6.text=\n\ Return\ the\ Name\ of\ the\ creature.\n\ @return\ String\ Name.\n
 numComments=7

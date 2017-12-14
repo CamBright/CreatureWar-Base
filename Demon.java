@@ -1,18 +1,24 @@
 import java.util.Random;
 /**
- * Write a description of class Demon here.
+ * The attributes such as the health, name, and damage of a demon.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Cameron Brightwell
+ * @version 2017
  */
 public class Demon extends Creature
 {
-    // instance variables - replace the example below with your own
-    
-    public Demon() {
+    /**
+   * Constructor of Creature subclass Demon
+   */
+   public Demon() {
         this.Name = "Demon";
-    }
-    public int damage() {
+   }
+   
+   /**
+   * Generate the damage an elf inflicts and return it.
+   * @return int damage
+   */
+   public int damage() {
         Random oRand = new Random();
         int damage = oRand.nextInt(strength);
         int MagicChance = oRand.nextInt(99) + 1;
@@ -21,5 +27,5 @@ public class Demon extends Creature
         }
         
         return damage;
-    }
+   }
 }
